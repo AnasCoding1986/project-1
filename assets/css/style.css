@@ -47,3 +47,39 @@ nav{
     background: #fff;
     padding: 20px 25px;
 }
+
+/* ================About================ */
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.about .about-img{
+    padding: 5% 10%;
+}
+.about .about-description{
+    margin: 20% 10% 5% 0;
+}
+.about .about-description .about-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about .about-description .about-p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 25px 0;
+}
+.about .about-description .failure-list li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    list-style: none;
+}
+.about .about-description .failure-list li i{
+    color: #16d887;
+    margin-right: 10px;
+}
