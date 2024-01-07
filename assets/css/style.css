@@ -8,7 +8,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 section{
-    padding: 130px 230px;
+    padding: 70px 230px;
 }
 
 /* ================Header================ */
@@ -19,6 +19,7 @@ nav{
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+    margin-bottom: 70px;
 }
 .header{
     text-align: right;
@@ -38,7 +39,7 @@ nav{
     line-height: 26px; 
     margin: 24px 0 30px 0;
 }
-.header .btn{
+.btn{
     color: #005FAC;
     text-align: right;
     font-size: 20px;
@@ -82,4 +83,91 @@ nav{
 .about .about-description .failure-list li i{
     color: #16d887;
     margin-right: 10px;
+}
+
+/* ================My Plan================ */
+.section-title{
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.my-plan .plan-img{
+    width: 90px;
+}
+.my-plan .plan-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.my-plan .plan-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* ================Banner================ */
+.banner{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url("../images/watch.png") no-repeat;
+    background-size: cover;
+}
+.banner-img{
+    position: relative;
+    width: 100%;
+}
+.banner-desription{
+    /* position: absolute; */
+    padding: 60px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    max-width: 40%;
+}
+
+/* ================Footer================ */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background: #151414;
+}
+.footer-description{
+    max-width: 500px;
+}
+.footer-description .footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-description .p-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-description .footer-email{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-description .footer-phone{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-description .footer-social-icon{
+
 }
